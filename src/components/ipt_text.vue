@@ -45,7 +45,7 @@
     line-height: .4rem ;
     padding: 0 .1rem;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 }
 .ipt{

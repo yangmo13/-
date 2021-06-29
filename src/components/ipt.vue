@@ -1,7 +1,7 @@
 <template>
   <div id="ipt">
     <input class="ipt" type="text" :placeholder="placehold" />
-<slot v-if="slotShow" :style="slotShow==true?'padding-right: 1.1rem;':''"></slot>
+    <slot v-if="slotShow" :style="slotShow==true?'padding-right: 1.1rem;':''"></slot>
   </div>
 </template>
 

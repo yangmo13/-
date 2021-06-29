@@ -16,9 +16,21 @@ const routes = [
     component:()=>import("@/views/register.vue")
   },{
     //扫码页面
-    path:"/",
-    name:"",
+    path:"/code",
+    name:"code",
     component:()=>import("@/views/code.vue")
+  },
+  {
+    //地址选择
+    path:"/address",
+    name:"address",
+    component:()=>import('@/views/address.vue')
+  },
+  {
+    //添加成功
+    path:"/",
+    name:'addSuccess',
+    component:()=>import('@/views/addSuccess.vue')
   }
 ];
 

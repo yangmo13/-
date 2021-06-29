@@ -151,6 +151,9 @@ export default {
   align-items: center;
   padding: .1rem .15rem;
 }
+.code-list-page:last-child{
+    margin-bottom: 0;
+}
 .remind {
   background-color: #e6e4dd;
   padding: 0.12rem 0.2rem;

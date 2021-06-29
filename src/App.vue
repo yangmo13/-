@@ -30,5 +30,6 @@ body{
   --index:#707005;
   --gray:#B3B3B3;
   --black:#333;
+  --back:#e6e4dd;
 }
 </style>
